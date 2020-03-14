@@ -1,0 +1,122 @@
+body{
+    background: rgb(53, 49, 49);
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#base{
+    margin: 0;
+    margin-left: 35%;
+    margin-top: 20px;
+    width: 30%;
+    height: 600px;
+    background: gray;
+    padding: 0;
+} 
+#base #carga{
+    width: 100%;
+    height: 600px;
+    background: white;
+}
+    #base #carga #logo-carga{
+        width: 80%;
+        height: 300px;
+        margin-left: 10%;
+    }
+    #base #carga #logo-carga img{
+        margin-top: 150px;
+        width: 100%;
+        height: 100%;
+    }
+#header{
+    background: rgb(218,52,56);
+    width: 100%;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+}
+    #header #menu{
+        float: left;
+        width: 20%;
+        height: 100%;
+        /*background: green;*/
+        }
+        #header #menu:hover{
+            background: rgb(160,52,56);
+            transition: .5s;
+        }
+        #header #menu h1{
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+    #header #titulo{
+        float: left;
+        width: 60%;
+        height: 100%;
+        /*background: blue;*/
+        }
+        #header #titulo h1{
+            font-family: 'Dancing Script';
+            text-align: center;
+            font-size: 2.2em;
+            margin: 0;
+            padding: 0;
+        }
+    #header #extra{
+        float: right;
+        width: 20%;
+        height: 100%;
+       /*background: green;*/
+        }
+        #header #extra:hover{
+            background: rgb(160,52,56);
+            transition: .5s;
+        }
+        #header #extra h1{
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+#cuerpo{
+    background: white;
+    width: 100%;
+    height: 530px;
+    margin: 0;
+    padding: 0;
+    }
+    #cuerpo #mapa{
+        width: 100%;
+        height: 400px;
+        background: green;
+        overflow: hidden;
+    }
+    #cuerpo #mapa img{
+        width: 100%;
+        height: 100%;
+    }
+    #cuerpo #info{
+        width: 100%;
+        height: 130px;
+        background: white;
+        overflow: scroll;
+    }
+    #cuerpo #info::-webkit-scrollbar{
+        display: none;
+        
+    }
+    #cuerpo #info p{
+        padding: 0;
+        margin: 0;
+        font-family: 'Dancing Script';
+        text-align: center;
+        font-size: 1.5em;
+    }
+    #cuerpo #info img{
+        padding: 0;
+        margin: 0;
+        width: 50%;
+        margin-left: 25%;
+    }
